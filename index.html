@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start up -->
+
+    <header>
+        <h1>Content Us today!</h1>
+    </header>
+
+    <!-- Form -->
+    <div class="container">
+        <form>
+            <div class="first-name">
+                <label for="first-name">First Name:</label>
+                <input type="text" placeholder="First Name" required>
+            </div>
+            <div class="last-name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="e-mail">
+                <label for="email">E-Mail:</label>
+                <input type="email" placeholder="E-Mail Address">
+            </div>
+            <div class="phone">
+                <label for="phone">Phone #</label>
+                <input type="number" placeholder="(845)555-1212">
+            </div>
+            <div class="address">
+                <label for="address">Address:</label>
+                <input type="text" placeholder="Address">
+            </div>
+            <div class="city">
+                <label for="city">City:</label>
+                <input type="text" placeholder="city">
+            </div>
+            <div class="state">
+                <label for="state">State:</label>
+                <input type="text" placeholder="Please select your state">
+            </div>
+            <div class="zip-code">
+                <label for="zip-code">Zip Code #</label>
+                <input type="number" placeholder="Zip Code">
+            </div>
+            
+            <div class="radio">
+                <label for="hosting">Do you have hosting?</label><br>
+                <input type="radio" id="yes" name="Yes" value="Yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="No" value="No">
+                <label for="no">No</label><br>
+            </div>
+                <input type="button" onclick="alert('thx for Submit')" value="Submit" style="margin-bottom: 20px; margin-top: -80px; ">
+            
+        </form>
+    </div>
+</body>
+</html>
